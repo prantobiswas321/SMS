@@ -132,6 +132,16 @@ body{
     background-color: #276ABC;
 }
 
+.card-1{
+    /* box-shadow: 3px 2px 4px 3px #E5E5E5; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 5px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .card-header-text{
     font-size: 20px;
     font-weight: 700;
@@ -208,6 +218,81 @@ body{
     font-weight: 500;
     font-size: 18px;
     color: #B5B3B3;
+}
+
+.recruiter-header{
+    font-weight: 500;
+    font-size: 21px;
+    color: #292929;
+}
+
+.recruiter-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 19px; */
+
+    color: #858585;
+
+}
+
+.btn-texxt{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.recruitter-button{
+    width: 140px;
+    height: 57px;
+    border: none;
+    background: #276ABC;
+    border-radius: 8px;
+}
+
+.text-right{
+    text-align: justify; 
+    -moz-text-align-last: right; 
+    text-align-last: right;
+}
+
+.see-more{
+    font-weight: 500;
+    font-size: 16px;
+    color: #858585;
+}
+
+.apply-header{
+    padding-top: 41px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #276ABC;
+}
+
+.apply-paragraph{
+    padding-top: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    padding-bottom: 58px;
+}
+
+.margin-top-apply{
+    margin-top: 200px;
+}
+
+/* .hr-1{
+    width: 1318px;
+    height: 0px;
+    left: 142px;
+    top: 1641.92px;
+    border: 1px solid #D4D2D0;
+} */
+
+.margin-top-1{
+    margin-top: 43px;
 }
 
 .ask-text{
