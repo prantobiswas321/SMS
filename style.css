@@ -303,15 +303,22 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .recruitter-button{
     width: 140px;
     height: 57px;
     border: none;
-    background: #276ABC;
+    /* background: #276ABC; */
+    background: rgba(245, 244, 243, 1);
+    color: #000000;
     border-radius: 8px;
+}
+
+.recruitter-button:hover{
+    background: #276ABC;
+    color: white;
 }
 
 .text-right{
