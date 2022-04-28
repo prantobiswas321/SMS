@@ -3,6 +3,25 @@ body{
     padding: 0;
 }
 
+/* apply button */
+.apply-btn{
+    height: 45px;
+    width: 130px;
+    /* left: 1330px; */
+    /* top: 37px; */
+    border-radius: 55px;
+}
+
+/* margin for icons dhaka office page */
+.margin-icons{
+    padding-left: 60px;
+    margin-bottom: 60px;
+}
+
+.nav-shadow{
+    box-shadow: 1px 1px 10px #E5E5E5;;
+}
+
 /* office page css start */
 .office-header{
     margin-top: 85px;
@@ -53,7 +72,7 @@ body{
     line-height: 150%;
     /* or 21px */
     color: #FFFFFF;
-    margin-bottom: 44px;
+    /* margin-bottom: 35px; */
 }
 
 .card-details-1{
