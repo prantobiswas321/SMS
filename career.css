@@ -22,34 +22,6 @@ body{
     font-weight: 500;
 }
 
-.banner-img-1{
-    background: url('/assets/images/image.png');
-    opacity: .9;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 544px;
-
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 101px;
-    
-}
-
-.banner-img-2{
-    background: url('/assets/images/Rectangle\ 28.png');
-    opacity: .9;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 544px;
-
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 101px;
-    
-}
-
 .banner-img-3{
     background: url('/assets/images/Rectangle\ 27.png');
     opacity: .9;
@@ -64,84 +36,26 @@ body{
     
 }
 
-.img-radius{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.shadow{
-    box-shadow: 3px 3px 3px #E5E5E5;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* background-color: #276ABC; */
-}
-
-.shadow-1{
-    box-shadow: 3px 3px 3px #E5E5E5;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #276ABC;
-}
-
-.card-1{
-    /* box-shadow: 3px 2px 4px 3px #E5E5E5; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 5px; */
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card-header-text{
-    font-size: 20px;
+.banner-text-career{
     font-weight: 700;
-    color: rgba(255, 255, 255, 1);    ;
-}
-
-.card-header-paragraph{
-    color: rgba(255, 255, 255, 1);
-}
-
-.empty-space{
-    /* position: absolute; */
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    top: 1580px;
-    background: #F2F3F7;
-}
-
-.empty-space-1{
-    width: 100%;
-    height: 100px;
-    /* left: -2px; */
-    top: 1312.92px;
-
-    background: #F5F4F3;
-}
-
-.title-1{
     font-size: 48px;
-    font-weight: 700;
+    /* line-height: 150%; */
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
     color: #FFFFFF;
-    margin-top: 298px;
 }
 
-.ask-text{
-    font-weight: 700;
-    font-size: 24px;
-    color: #276ABC;
-    margin-top: 84px;
-    margin-bottom: 40px;
-}
-
-.margin-top{
-    margin-top: 109px;
-}
-
-.margin-bottom{
-    margin-bottom: 96px;
+.banner-paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    letter-spacing: -0.011em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .margin-down{
@@ -182,6 +96,10 @@ body{
     margin-bottom: 93px;
 }
 
+/* .margin-up{
+    margin-top: 170px;
+} */
+
 .button{
     width: 192px;
     height: 57px;
@@ -202,33 +120,52 @@ body{
 
 }
 
-
-.banner-text{
-    color: rgba(255, 255, 255, 1);
-    margin-bottom: 102px;
-    margin-bottom: 48px;
+.img-radius{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.banner-text-career{
+/* .shadow{
+    box-shadow: 3px 3px 3px #E5E5E5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #276ABC;
+} */
+
+.card-1{
+    /* box-shadow: 3px 2px 4px 3px #E5E5E5; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 5px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header-text{
+    font-size: 20px;
     font-weight: 700;
-    font-size: 48px;
-    /* line-height: 150%; */
-    /* identical to box height, or 72px */
-
-    text-align: center;
-    letter-spacing: -0.011em;
-
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);    ;
 }
 
-.banner-paragraph{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    /* or 27px */
-    letter-spacing: -0.011em;
-    text-align: center;
+.card-header-paragraph{
+    color: rgba(255, 255, 255, 1);
+}
+
+.empty-space-1{
+    width: 100%;
+    height: 100px;
+    /* left: -2px; */
+    top: 1312.92px;
+
+    background: #F5F4F3;
+}
+
+.title-1{
+    font-size: 48px;
+    font-weight: 700;
     color: #FFFFFF;
+    margin-top: 298px;
 }
 
 .input-fields-1{
@@ -358,100 +295,28 @@ body{
     margin-top: 43px;
 }
 
+.ask-text{
+    font-weight: 700;
+    font-size: 24px;
+    color: #276ABC;
+    margin-top: 84px;
+    margin-bottom: 40px;
+}
+
+.margin-top{
+    margin-top: 109px;
+}
+
+.margin-bottom{
+    margin-bottom: 96px;
+}
+
 
 .accordian-header-text{
     font-weight: 600;
     font-size: 20px;
     color: #2154AC;
 }
-
-/* home page 2 start */
-.pagination-style{
-    background-color: #F2F3F7;;
-}
-
-.pagination-text{
-    margin-top: 105px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #000000;
-}
-
-.pagination-margin-top{
-    margin-top: 105px;
-}
-
-.paginition-margin-bottom{
-    margin-bottom: 48px;
-}
-
-.paragraph-text{
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    /* or 154% */
-    color: #C4C4C4;
-}
-
-.pagination-style{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.pagination-style span{
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-}
-
-.inner-pagination{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.inner-pagination .text-span-1{
-    color:  #04A1E5;
-    display: inline-block;
-}
-
-
-/* .shadow-1{
-    box-shadow: 3px 3px 3px #E5E5E5;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-} */
-
-.all-blogs-title{
-    font-size: 32px;
-    font-weight: 700;
-    color: #404040;
-}
-
-.blogs-para{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    /* identical to box height, or 27px */
-    letter-spacing: -0.011em;
-    color: #757575;
-}
-
-.visa-style{
-    font-size: 21px;
-    font-weight: 700;
-    /* color: #276ABC; */
-   
-}
-
-.visa-info{
-    font-size: 14px;
-    font-weight: 400;
-    color: #404040;
-}
-/* home page 2 end */
 
 /* accordion style */
 
