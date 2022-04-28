@@ -3,6 +3,119 @@ body{
     padding: 0;
 }
 
+/* office page css start */
+.office-header{
+    margin-top: 85px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+    letter-spacing: -0.011em;
+    color: #404040;
+}
+
+.office-text{
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #757575;
+}
+
+.card-3{
+    width: 424px;
+    height: 672px;
+    left: 252px;
+    top: 409px;
+
+    /* box-shadow: 3px 3px 3px #E5E5E5; */
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    background-color: #276ABC;
+}
+
+.card-3-header{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+}
+
+.card-details{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #FFFFFF;
+    margin-bottom: 44px;
+}
+
+.card-details-1{
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 150%; */
+    /* or 21px */
+    color: #FFFFFF;
+    /* margin-bottom: 44px; */
+}
+
+.card-span-text{
+    /* padding-bottom: 14px; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    color: #FFFFFF;
+}
+
+.margin-11{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #FFFFFF;
+}
+
+.margin-111{
+    margin-bottom: 30px;
+}
+
+.icon-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    /* color: #FFFFFF; */
+}
+
+.icon-mail{
+    height: 14px;
+    width: 18px;
+    left: 312px;
+    top: 592px;
+    /* border-radius: 0px; */
+    /* color: #FFFFFF; */
+}
+
+.margin-the-card-left-side{
+    margin-top: 60px;
+    margin-left: 60px;
+    /* margin-bottom: 60px; */
+    margin-right: 36px;
+}
+
+.margin-from-footer{
+    margin-bottom: 177px;
+}
+/* office page css end */
+
 .btn-style{
     border-radius: 50px;
     border: 1px solid #2154AC;
@@ -64,6 +177,48 @@ body{
     
 }
 
+.bg-map{
+    margin-top: 143px;
+    background: url('/assets/images/map.png');
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 980px;
+    height: 400px;
+    /* left: 311px;
+    top: 2509px; */
+
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 101px; */
+    margin-bottom: 74px;
+}
+
+.icon-phone{
+    height: 18px;
+    width: 18px;
+    left: 173px;
+    top: 2722px;
+    border-radius: 0px;
+
+}
+
+.icon-location{
+    height: 18.48560905456543px;
+    width: 16.00000762939453px;
+    left: 174px;
+    top: 2665px;
+    border-radius: 0px;
+}
+
+
+.location-para{
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 150%; */
+    color: #404040;
+}
+
 .img-radius{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -92,6 +247,20 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.card-2{
+    /* margin-left: 20px; */
+    /* padding-top: 30px; */
+    /* width: 312px;
+    height: 235px; */
+    /* left: 140px;
+    top: 2591px; */
+    background: #F2F3F7;
+    opacity: 0.9;
+    border-radius: 3px;
+}
+
+
 
 .card-header-text{
     font-size: 20px;
@@ -451,6 +620,13 @@ body{
     font-weight: 700;
     /* color: #276ABC; */
    
+}
+
+.location-title{
+    font-weight: 700;
+    font-size: 18px;
+    /* line-height: 26px; */
+    color: #2154AC;
 }
 
 .visa-info{
@@ -894,4 +1070,42 @@ body{
 
 
 
+  }
+
+  @media only screen and (max-width: 667px) {
+  .bg-map{
+    
+    width: 100%;
+    height: 800px;
+
+    /* display: flex;
+    align-items: center;
+    
+    margin-bottom: 74px; */
+}
+}
+
+@media only screen and (max-width: 653px) {
+    .bg-map{
+      
+      width: 653px;
+      height: 100%;
+  
+      /* display: flex;
+      align-items: center;
+      
+      margin-bottom: 74px; */
+  }
+  }
+
+  @media only screen and (max-width: 564px) {
+    .card-3{
+      
+      width: 100%;
+  
+      /* display: flex;
+      align-items: center;
+      
+      margin-bottom: 74px; */
+  }
   }
